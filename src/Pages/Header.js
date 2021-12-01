@@ -23,7 +23,7 @@ const PageWrapper = styled.nav`
   position: sticky;
   top: 0;
   padding: 1rem 1.5rem;
-  background: var(--primarySiteColor);
+  background: var(--thirdSiteColor);
   border-bottom: 5px solid var(--fifthSiteColor);
   z-index: 999;
   /* width: 100%; */

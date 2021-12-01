@@ -42,19 +42,18 @@ export default function Sidebar() {
             id="homeLink"
             onClick={() => setCurrentPage("home")}
           >
-            Title
+            The Title
           </Link>
 
           <Link
-            to="/thebeginnings"
+            to="/thecontent"
             className={
-              "sidebar-link " +
-              (currentPage === "thebeginnings" ? "lit" : "unlit")
+              "sidebar-link " + (currentPage === "thecontent" ? "lit" : "unlit")
             }
-            id="theBeginningsLink"
-            onClick={() => setCurrentPage("thebeginnings")}
+            id="theContentLink"
+            onClick={() => setCurrentPage("thecontent")}
           >
-            The Beginnings
+            The Content
           </Link>
         </li>
       </ul>

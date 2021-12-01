@@ -2,11 +2,16 @@ import React, { useState, useEffect } from "react";
 import styled from "styled-components";
 import RenderText from "./RenderText";
 import Title2 from "../Videos/Title2.mp4";
+import background4 from "../Images/background4.jpg";
 
-export default function Title() {
+export default function Title({ setBackground }) {
   let titleBinary = "01000011 01010011";
   //01000011 01010011
   let titleBinaryArray = [];
+
+  useEffect(() => {
+    setBackground(background4);
+  }, []);
 
   return (
     <PageWrapper>

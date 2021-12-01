@@ -29,7 +29,6 @@ body,
 #app,
 #app > div {
   width: 100% !important;
-  font-family: "Source Sans Pro";
   margin: 0px !important;
   padding: 0px !important;
   height: 100% !important;
