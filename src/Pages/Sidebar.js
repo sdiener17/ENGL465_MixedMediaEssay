@@ -55,6 +55,37 @@ export default function Sidebar() {
           >
             The Content
           </Link>
+          <Link
+            to="/thecontent2"
+            className={
+              "sidebar-link " +
+              (currentPage === "thecontent2" ? "lit" : "unlit")
+            }
+            id="theContent2Link"
+            onClick={() => setCurrentPage("thecontent2")}
+          >
+            The Content 2.0
+          </Link>
+          <Link
+            to="thedemo"
+            className={
+              "sidebar-link " + (currentPage === "thedemo" ? "lit" : "unlit")
+            }
+            id="theDemoLink"
+            onClick={() => setCurrentPage("thedemo")}
+          >
+            The Demo
+          </Link>
+          <Link
+            to="thecredits"
+            className={
+              "sidebar-link " + (currentPage === "thecredits" ? "lit" : "unlit")
+            }
+            id="theCreditsLink"
+            onClick={() => setCurrentPage("thecredits")}
+          >
+            The Credits
+          </Link>
         </li>
       </ul>
     </SideWrapper>

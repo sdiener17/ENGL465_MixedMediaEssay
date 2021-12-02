@@ -10,6 +10,9 @@ import TheBeginnings from "./Pages/TheBeginnings";
 import LoginPage from "./Pages/LoginPage";
 import background1 from "./Images/background1.jpg";
 import Footer from "./Pages/Footer";
+import Content2 from "./Pages/Content2";
+import Credits from "./Pages/Credits";
+import Demo from "./Pages/Demo";
 
 export default function App() {
   const [isLoggedIn, setIsLoggedIn] = useState(true);
@@ -41,6 +44,21 @@ export default function App() {
                 exact
                 path="/thecontent"
                 element={<TheBeginnings setBackground={setBackground} />}
+              />
+              <Route
+                exact
+                path="/thecontent2"
+                element={<Content2 setBackground={setBackground} />}
+              />
+              <Route
+                exact
+                path="/thecredits"
+                element={<Credits setBackground={setBackground} />}
+              />
+              <Route
+                exact
+                path="/thedemo"
+                element={<Demo setBackground={setBackground} />}
               />
             </Routes>
           </div>
