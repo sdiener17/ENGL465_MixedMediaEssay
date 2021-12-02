@@ -9,6 +9,7 @@ import { Route, Routes } from "react-router";
 import TheBeginnings from "./Pages/TheBeginnings";
 import LoginPage from "./Pages/LoginPage";
 import background1 from "./Images/background1.jpg";
+import Footer from "./Pages/Footer";
 
 export default function App() {
   const [isLoggedIn, setIsLoggedIn] = useState(true);
@@ -16,7 +17,13 @@ export default function App() {
 
   return (
     <PageWrapper>
-      <div style={{ backgroundImage: `url(${background})` }}>
+      <div
+        style={{
+          backgroundImage: `url(${background})`,
+          backgroundRepeat: "no-repeat",
+          backgroundSize: "cover",
+        }}
+      >
         <Header />
         {!isLoggedIn && <LoginPage setIsLoggedIn={setIsLoggedIn} />}
         {isLoggedIn && (
@@ -38,13 +45,19 @@ export default function App() {
             </Routes>
           </div>
         )}
+        <div className="separaterBottomFooter" />
+        <Footer />
       </div>
     </PageWrapper>
   );
 }
 
 const PageWrapper = styled.nav`
+  .separaterBottomFooter {
+    margin-bottom: 60px;
+  }
   //display:flex;
+  height: 100%;
   .contentWrapper {
     display: flex;
     flex-direction: row;

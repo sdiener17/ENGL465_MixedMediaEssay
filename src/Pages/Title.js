@@ -28,6 +28,7 @@ export default function Title({ setBackground }) {
 const PageWrapper = styled.nav`
   display: flex;
   flex-direction: row;
+  margin-bottom: 100px;
   .title {
     display: flex;
     justify-content: center;
