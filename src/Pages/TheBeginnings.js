@@ -2,6 +2,8 @@ import React from "react";
 import { useEffect } from "react/cjs/react.development";
 import styled from "styled-components";
 import background2 from "../Images/background2.jpg";
+import ReactAudioPlayer from "react-audio-player";
+import Underground from "../Music/Underground.mp3";
 
 export default function TheBeginnings({ setBackground }) {
   useEffect(() => {
@@ -66,7 +68,15 @@ export default function TheBeginnings({ setBackground }) {
       <div>&nbsp;{line23}</div>
       <div>&nbsp;{line24}</div>
       <div>&nbsp;{line25}</div>
-      <div>{line26}</div>
+      <div>&nbsp;{line26}</div>
+      <div>&nbsp;{line27}</div>
+      <div>{line28}</div>
+      <ReactAudioPlayer
+        src={Underground}
+        autoPlay={true}
+        loop={true}
+        controls={true}
+      />
     </PageWrapper>
   );
 }
