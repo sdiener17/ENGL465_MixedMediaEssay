@@ -16,7 +16,9 @@ export default function Credits({ setBackground }) {
   let line6 = "Music “Title Screen” by Re-Logic";
   let line7 = '*Music 1 ("The Content" Page):';
   let line8 = '"Underground" by Re-Logic';
-  let line9 = "*Video 2 (slide 5):";
+  let line801 = '*Music 2 ("The Content 2.0" Page):';
+  let line802 = '"Overworld Day" By Re-Logic';
+  let line9 = '*Video 2 ("The Demo" Page):';
   let line10 = "Demoed by Sarah Diener";
   let line11 = "Music “Underground Hallow” and “Jungle” by Re-Logic";
 
@@ -30,6 +32,8 @@ export default function Credits({ setBackground }) {
       <div>&nbsp;&nbsp;{line6}</div>
       <div>{line7}</div>
       <div>&nbsp;&nbsp;{line8}</div>
+      <div>{line801}</div>
+      <div>&nbsp;&nbsp;{line802}</div>
       <div>{line9}</div>
       <div>&nbsp;&nbsp;{line10}</div>
       <div>&nbsp;&nbsp;{line11}</div>

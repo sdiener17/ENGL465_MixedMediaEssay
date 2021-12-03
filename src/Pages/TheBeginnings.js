@@ -130,12 +130,12 @@ export default function TheBeginnings({ setBackground }) {
         text="While I was working on the project, "
       />
       <div className="textLine" onClick={() => setS8M(true)}>
-        &nbsp;{line8}
+        &emsp;{line8}
       </div>
       <ExplanationModal
         showModal={s8m}
         setShowModal={setS8M}
-        text="Explanation"
+        text="I felt stupid, "
       />
       <div className="textLine" onClick={() => setS9M(true)}>
         &nbsp;{line9}
@@ -143,7 +143,7 @@ export default function TheBeginnings({ setBackground }) {
       <ExplanationModal
         showModal={s9m}
         setShowModal={setS9M}
-        text="I felt stupid "
+        text="and worked my brain as hard as it would go."
       />
       <div className="textLine" onClick={() => setS10M(true)}>
         &nbsp;{line10}
@@ -151,7 +151,7 @@ export default function TheBeginnings({ setBackground }) {
       <ExplanationModal
         showModal={s10m}
         setShowModal={setS10M}
-        text="and worked my brain as hard as it would go."
+        text="While my attempted solution to the problem didn't work, "
       />
       <div className="textLine" onClick={() => setS11M(true)}>
         &nbsp;&nbsp;{line11}
@@ -159,7 +159,7 @@ export default function TheBeginnings({ setBackground }) {
       <ExplanationModal
         showModal={s11m}
         setShowModal={setS11M}
-        text="Explanation"
+        text="I got increasingly frustrated, "
       />
       <div className="textLine" onClick={() => setS12M(true)}>
         &nbsp;&nbsp;{line12}
@@ -167,7 +167,7 @@ export default function TheBeginnings({ setBackground }) {
       <ExplanationModal
         showModal={s12m}
         setShowModal={setS12M}
-        text="Explanation"
+        text="added up my list of failures, "
       />
       <div className="textLine" onClick={() => setS13M(true)}>
         &nbsp;&nbsp;{line13}
@@ -175,23 +175,19 @@ export default function TheBeginnings({ setBackground }) {
       <ExplanationModal
         showModal={s13m}
         setShowModal={setS13M}
-        text="Explanation"
+        text="and increasingly felt inadequate."
       />
       <div className="textLine" onClick={() => setS14M(true)}>
         &nbsp;{line14}
       </div>
-      <ExplanationModal
-        showModal={s14m}
-        setShowModal={setS14M}
-        text="Explanation"
-      />
+      <ExplanationModal showModal={s14m} setShowModal={setS14M} text="" />
       <div className="textLine" onClick={() => setS15M(true)}>
         &nbsp;{line15}
       </div>
       <ExplanationModal
         showModal={s15m}
         setShowModal={setS15M}
-        text="Explanation"
+        text="If I'd spent over an hour on the problem, "
       />
       <div className="textLine" onClick={() => setS16M(true)}>
         &nbsp;{line16}
@@ -199,7 +195,7 @@ export default function TheBeginnings({ setBackground }) {
       <ExplanationModal
         showModal={s16m}
         setShowModal={setS16M}
-        text="Explanation"
+        text="I would ask for help, "
       />
       <div className="textLine" onClick={() => setS17M(true)}>
         &nbsp;{line17}
@@ -207,23 +203,19 @@ export default function TheBeginnings({ setBackground }) {
       <ExplanationModal
         showModal={s17m}
         setShowModal={setS17M}
-        text="Explanation"
+        text="which made me feel even more like a failure."
       />
       <div className="textLine" onClick={() => setS18M(true)}>
         &nbsp;{line18}
       </div>
-      <ExplanationModal
-        showModal={s18m}
-        setShowModal={setS18M}
-        text="Explanation"
-      />
+      <ExplanationModal showModal={s18m} setShowModal={setS18M} text="" />
       <div className="textLine" onClick={() => setS19M(true)}>
         &nbsp;{line19}
       </div>
       <ExplanationModal
         showModal={s19m}
         setShowModal={setS19M}
-        text="Explanation"
+        text="I often spent time questioning if computer science was really for me."
       />
       <div className="textLine" onClick={() => setS20M(true)}>
         &nbsp;{line20}
@@ -231,7 +223,7 @@ export default function TheBeginnings({ setBackground }) {
       <ExplanationModal
         showModal={s20m}
         setShowModal={setS20M}
-        text="Explanation"
+        text="I would try to get reassurance from others about my major and that I was indeed smart enough for it."
       />
       <div className="textLine" onClick={() => setS21M(true)}>
         &nbsp;{line21}
@@ -239,7 +231,7 @@ export default function TheBeginnings({ setBackground }) {
       <ExplanationModal
         showModal={s21m}
         setShowModal={setS21M}
-        text="Explanation"
+        text="If I got the reassurance I was looking for, "
       />
       <div className="textLine" onClick={() => setS22M(true)}>
         &nbsp;{line22}
@@ -247,23 +239,19 @@ export default function TheBeginnings({ setBackground }) {
       <ExplanationModal
         showModal={s22m}
         setShowModal={setS22M}
-        text="Explanation"
+        text="I would continue on my way."
       />
       <div className="textLine" onClick={() => setS23M(true)}>
         &nbsp;{line23}
       </div>
-      <ExplanationModal
-        showModal={s23m}
-        setShowModal={setS23M}
-        text="Explanation"
-      />
+      <ExplanationModal showModal={s23m} setShowModal={setS23M} text="" />
       <div className="textLine" onClick={() => setS24M(true)}>
         &nbsp;{line24}
       </div>
       <ExplanationModal
         showModal={s24m}
         setShowModal={setS24M}
-        text="Explanation"
+        text="Otherwise, "
       />
       <div className="textLine" onClick={() => setS25M(true)}>
         &nbsp;{line25}
@@ -271,7 +259,7 @@ export default function TheBeginnings({ setBackground }) {
       <ExplanationModal
         showModal={s25m}
         setShowModal={setS25M}
-        text="Explanation"
+        text="I became more frustrated "
       />
       <div className="textLine" onClick={() => setS26M(true)}>
         &nbsp;{line26}
@@ -279,27 +267,19 @@ export default function TheBeginnings({ setBackground }) {
       <ExplanationModal
         showModal={s26m}
         setShowModal={setS26M}
-        text="Explanation"
+        text="and confused"
       />
       <div className="textLine" onClick={() => setS27M(true)}>
         &nbsp;{line27}
       </div>
-      <ExplanationModal
-        showModal={s27m}
-        setShowModal={setS27M}
-        text="Explanation"
-      />
+      <ExplanationModal showModal={s27m} setShowModal={setS27M} text="" />
       <div className="textLine" onClick={() => setS28M(true)}>
         {line28}
       </div>
-      <ExplanationModal
-        showModal={s28m}
-        setShowModal={setS28M}
-        text="Explanation"
-      />
+      <ExplanationModal showModal={s28m} setShowModal={setS28M} text="" />
       <ReactAudioPlayer
         src={Underground}
-        autoPlay={true}
+        autoPlay={false}
         loop={true}
         controls={true}
       />
