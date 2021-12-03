@@ -107,8 +107,9 @@ const SideWrapper = styled.nav`
   //position:fixed;
   //top:200px;
   //left:50px;
-  //width: 60px;
-  height: 180px;
+  //width: 100px;
+  //height: 180px;
+
   background: var(--mainGrey);
   //z-index:1;
   //border-right:4px solid var(--primaryColor);
@@ -131,7 +132,7 @@ const SideWrapper = styled.nav`
     font-size: 20px;
     transition: var(--mainTransition);
     text-decoration: none;
-    width: 80%;
+    //width: 80%;
   }
   .sidebar-link:hover {
     background: #9b9b9b;

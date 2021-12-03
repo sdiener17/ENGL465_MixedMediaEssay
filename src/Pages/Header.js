@@ -12,7 +12,7 @@ export default function Header() {
     <PageWrapper>
       <div className="headerMain">
         {/* <img src={mainLogo} className="logo" alt="GURPS Book image"></img> */}
-        <div className="headerTitle">Computer Science</div>
+        <div className="headerTitle">computerScience.myExperiences();</div>
       </div>
     </PageWrapper>
   );

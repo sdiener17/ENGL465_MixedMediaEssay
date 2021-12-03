@@ -279,7 +279,7 @@ export default function TheBeginnings({ setBackground }) {
       <ExplanationModal showModal={s28m} setShowModal={setS28M} text="" />
       <ReactAudioPlayer
         src={Underground}
-        autoPlay={false}
+        autoPlay={true}
         loop={true}
         controls={true}
       />
