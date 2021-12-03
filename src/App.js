@@ -13,6 +13,7 @@ import Footer from "./Pages/Footer";
 import Content2 from "./Pages/Content2";
 import Credits from "./Pages/Credits";
 import Demo from "./Pages/Demo";
+import Graph from "./Pages/Graph";
 
 export default function App() {
   const [isLoggedIn, setIsLoggedIn] = useState(true);
@@ -59,6 +60,11 @@ export default function App() {
                 exact
                 path="/thedemo"
                 element={<Demo setBackground={setBackground} />}
+              />
+              <Route
+                exact
+                path="/thegraph"
+                element={<Graph setBackground={setBackground} />}
               />
             </Routes>
           </div>

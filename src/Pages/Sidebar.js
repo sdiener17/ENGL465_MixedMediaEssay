@@ -67,6 +67,17 @@ export default function Sidebar() {
             The Content 2.0
           </Link>
           <Link
+            to="/thegraph"
+            className={
+              "sidebar-link " + (currentPage === "thegraph" ? "lit" : "unlit")
+            }
+            id="theGraphLink"
+            onClick={() => setCurrentPage("thegraph")}
+          >
+            The Graph
+          </Link>
+
+          <Link
             to="thedemo"
             className={
               "sidebar-link " + (currentPage === "thedemo" ? "lit" : "unlit")
