@@ -1,5 +1,5 @@
 import React from "react";
-import { useState, useEffect } from "react/cjs/react.development";
+import { useState, useEffect } from "react";
 import styled from "styled-components";
 import background2 from "../Images/background2.jpg";
 import ReactAudioPlayer from "react-audio-player";
