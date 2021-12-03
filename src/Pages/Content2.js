@@ -74,64 +74,116 @@ export default function Content2({ setBackground }) {
       <ExplanationModal
         showModal={showLine1Modal}
         setShowModal={setShowLine1Modal}
-        text=""
+        text="Over a year and a half later, I was working on a website for my databases class in the Fall of my Junior year of college."
       />
       <div className="textLine" onClick={() => setS2M(true)}>
         {line2}
       </div>
-      <ExplanationModal showModal={s2m} setShowModal={setS2M} text="" />
+      <ExplanationModal
+        showModal={s2m}
+        setShowModal={setS2M}
+        text="I started up my laptop "
+      />
       <div className="textLine" onClick={() => setS3M(true)}>
         {line3}
       </div>
-      <ExplanationModal showModal={s3m} setShowModal={setS3M} text="" />
+      <ExplanationModal
+        showModal={s3m}
+        setShowModal={setS3M}
+        text="and was actually excited for what I would get to work on."
+      />
       <div className="textLine" onClick={() => setS4M(true)}>
         {line4}
       </div>
-      <ExplanationModal showModal={s4m} setShowModal={setS4M} text="" />
+      <ExplanationModal
+        showModal={s4m}
+        setShowModal={setS4M}
+        text="The main thing I was working on was web development, "
+      />
       <div className="textLine" onClick={() => setS5M(true)}>
         {line5}
       </div>
-      <ExplanationModal showModal={s5m} setShowModal={setS5M} text="" />
+      <ExplanationModal
+        showModal={s5m}
+        setShowModal={setS5M}
+        text="and I actually enjoyed web dev and found it engaging and understandable ever since I'd first discovered it the past summer."
+      />
       <div className="textLine" onClick={() => setS6M(true)}>
         {line6}
       </div>
-      <ExplanationModal showModal={s6m} setShowModal={setS6M} text="" />
+      <ExplanationModal
+        showModal={s6m}
+        setShowModal={setS6M}
+        text="I started the project."
+      />
       <div className="textLine" onClick={() => setS7M(true)}>
         {line7}
       </div>
-      <ExplanationModal showModal={s7m} setShowModal={setS7M} text="" />
+      <ExplanationModal
+        showModal={s7m}
+        setShowModal={setS7M}
+        text="While working on it, "
+      />
       <div className="textLine" onClick={() => setS8M(true)}>
         &nbsp;{line8}
       </div>
-      <ExplanationModal showModal={s8m} setShowModal={setS8M} text=" " />
+      <ExplanationModal
+        showModal={s8m}
+        setShowModal={setS8M}
+        text="I actually understood what was going on (usually), "
+      />
       <div className="textLine" onClick={() => setS9M(true)}>
         &nbsp;{line9}
       </div>
-      <ExplanationModal showModal={s9m} setShowModal={setS9M} text=" " />
+      <ExplanationModal
+        showModal={s9m}
+        setShowModal={setS9M}
+        text="and didn't feel stupid or inadequate."
+      />
       <div className="textLine" onClick={() => setS10M(true)}>
         &nbsp;{line10}
       </div>
-      <ExplanationModal showModal={s10m} setShowModal={setS10M} text="" />
+      <ExplanationModal
+        showModal={s10m}
+        setShowModal={setS10M}
+        text="While my solution didn't work, "
+      />
       <div className="textLine" onClick={() => setS11M(true)}>
         &nbsp;&nbsp;{line11}
       </div>
-      <ExplanationModal showModal={s11m} setShowModal={setS11M} text=" " />
+      <ExplanationModal
+        showModal={s11m}
+        setShowModal={setS11M}
+        text="If I'd been working on it for over an hour, "
+      />
       <div className="textLine" onClick={() => setS12M(true)}>
         &nbsp;&nbsp;{line12}
       </div>
-      <ExplanationModal showModal={s12m} setShowModal={setS12M} text=" " />
+      <ExplanationModal
+        showModal={s12m}
+        setShowModal={setS12M}
+        text="My frustration would still start to grow."
+      />
       <div className="textLine" onClick={() => setS13M(true)}>
         &nbsp;&nbsp;{line13}
       </div>
-      <ExplanationModal showModal={s13m} setShowModal={setS13M} text=" " />
+      <ExplanationModal showModal={s13m} setShowModal={setS13M} text="" />
       <div className="textLine" onClick={() => setS14M(true)}>
         &nbsp;{line14}
       </div>
-      <ExplanationModal showModal={s14m} setShowModal={setS14M} text=" " />
+      <ExplanationModal
+        showModal={s14m}
+        setShowModal={setS14M}
+        text="Otherwise, "
+      />
       <div className="textLine" onClick={() => setS15M(true)}>
         &nbsp;{line15}
       </div>
-      <ExplanationModal showModal={s15m} setShowModal={setS15M} text=" " />
+      <ExplanationModal
+        showModal={s15m}
+        setShowModal={setS15M}
+        text="I didn't get too frustrated."
+      />
       <div className="textLine" onClick={() => setS16M(true)}>
         &nbsp;{line16}
       </div>
@@ -139,31 +191,51 @@ export default function Content2({ setBackground }) {
       <div className="textLine" onClick={() => setS17M(true)}>
         &nbsp;{line17}
       </div>
-      <ExplanationModal showModal={s17m} setShowModal={setS17M} text=" " />
+      <ExplanationModal showModal={s17m} setShowModal={setS17M} text="" />
       <div className="textLine" onClick={() => setS18M(true)}>
         &nbsp;{line18}
       </div>
-      <ExplanationModal showModal={s18m} setShowModal={setS18M} text=" " />
+      <ExplanationModal
+        showModal={s18m}
+        setShowModal={setS18M}
+        text="If I'd spent more than an hour trying to solve a problem, "
+      />
       <div className="textLine" onClick={() => setS19M(true)}>
         &nbsp;{line19}
       </div>
-      <ExplanationModal showModal={s19m} setShowModal={setS19M} text=" " />
+      <ExplanationModal
+        showModal={s19m}
+        setShowModal={setS19M}
+        text="I would usually ask for help."
+      />
       <div className="textLine" onClick={() => setS20M(true)}>
         &nbsp;{line20}
       </div>
-      <ExplanationModal showModal={s20m} setShowModal={setS20M} text=" " />
+      <ExplanationModal
+        showModal={s20m}
+        setShowModal={setS20M}
+        text="This didn't make me feel like a failure though."
+      />
       <div className="textLine" onClick={() => setS21M(true)}>
         &nbsp;{line21}
       </div>
-      <ExplanationModal showModal={s21m} setShowModal={setS21M} text=" " />
+      <ExplanationModal showModal={s21m} setShowModal={setS21M} text="" />
       <div className="textLine" onClick={() => setS22M(true)}>
         &nbsp;{line22}
       </div>
-      <ExplanationModal showModal={s22m} setShowModal={setS22M} text=" " />
+      <ExplanationModal
+        showModal={s22m}
+        setShowModal={setS22M}
+        text="Otherwise, "
+      />
       <div className="textLine" onClick={() => setS23M(true)}>
         &nbsp;{line23}
       </div>
-      <ExplanationModal showModal={s23m} setShowModal={setS23M} text=" " />
+      <ExplanationModal
+        showModal={s23m}
+        setShowModal={setS23M}
+        text="I would continue on my merry way. "
+      />
       <div className="textLine" onClick={() => setS24M(true)}>
         &nbsp;{line24}
       </div>

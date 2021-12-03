@@ -32,7 +32,7 @@ const PageWrapper = styled.div`
   display: flex;
   flex-direction: column;
   .imgWrapper {
-    display: flex;
+    //display: flex;
     //justify-content: center;
   }
   .graphImg {
