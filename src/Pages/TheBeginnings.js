@@ -215,7 +215,7 @@ export default function TheBeginnings({ setBackground }) {
       <ExplanationModal
         showModal={s19m}
         setShowModal={setS19M}
-        text="I often spent time questioning if computer science was really for me."
+        text="I often spent time questioning if computer science was really for me, due to how difficult it was for me to pick up on things and understand the new and difficult concepts that were constantly being thrown at me."
       />
       <div className="textLine" onClick={() => setS20M(true)}>
         &nbsp;{line20}
