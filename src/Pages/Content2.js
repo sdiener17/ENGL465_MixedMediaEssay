@@ -74,7 +74,7 @@ export default function Content2({ setBackground }) {
       <ExplanationModal
         showModal={showLine1Modal}
         setShowModal={setShowLine1Modal}
-        text="Over a year and a half later, I was working on a website for my databases class in the Fall of my Junior year of college."
+        text="Over a year and a half later, I was working on a website for my databases class in the Fall of my Junior year of college. In between the recursion project and now, there had been several ups and downs, and many times where I had seriously considered changing my major. However, the past summer, I had participated in an internship where I had designed a website, and I had learned that I actually rather enjoyed website development due to the non-theoretical and non-algorithmic aspects of it."
       />
       <div className="textLine" onClick={() => setS2M(true)}>
         {line2}

@@ -79,7 +79,7 @@ export default function TheBeginnings({ setBackground }) {
       <ExplanationModal
         showModal={showLine1Modal}
         setShowModal={setShowLine1Modal}
-        text="I was working on a project the Spring of my freshman year in college, the year we all got sent home due to COVID-19"
+        text="I was working on a project the Spring of my freshman year in college, the year we all got sent home due to COVID-19. When college started, I had been thrown in the deep end of the world of coding, and much of what we learned was theorectical. I had enjoyed what little programming I'd done in high school, but college programming was just too hard for me, especially when we were expected to come into college with lots of prior knowledge."
       />
       <div className="textLine" onClick={() => setS2M(true)}>
         {line2}
@@ -231,7 +231,7 @@ export default function TheBeginnings({ setBackground }) {
       <ExplanationModal
         showModal={s21m}
         setShowModal={setS21M}
-        text="If I got the reassurance I was looking for, "
+        text="If I got the reassurance I was looking for (something like 'Well, I think you're just struggling because this is all new to you, and hard topics like recursion take a lot of practice. Don't be too hard on yourself'-My Dad), "
       />
       <div className="textLine" onClick={() => setS22M(true)}>
         &nbsp;{line22}
@@ -251,7 +251,7 @@ export default function TheBeginnings({ setBackground }) {
       <ExplanationModal
         showModal={s24m}
         setShowModal={setS24M}
-        text="Otherwise, "
+        text="Otherwise (something like 'If you really don't feel like computer science is for you, then you should maybe change majors'-my friend), "
       />
       <div className="textLine" onClick={() => setS25M(true)}>
         &nbsp;{line25}
